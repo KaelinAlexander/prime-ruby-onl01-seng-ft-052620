@@ -1,1 +1,5 @@
-prime?(array) {|number| number % number = 0 || number % 1 = 0}
+require "prime"
+
+def prime?(array)
+  array.prime?
+end
